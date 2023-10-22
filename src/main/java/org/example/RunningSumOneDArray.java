@@ -9,7 +9,7 @@ public class RunningSumOneDArray {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello and welcome!");
-        int[] input1 = new int[]{3,1,2,10,1};
+        int[] input1 = new int[]{3,1,2,10,1}; //sample output -> [3, 4, 6, 16, 17]
         System.out.printf("RunningSumOneDArray of %sis -> %s%n", Arrays.toString(input1), Arrays.toString(runningSum(input1)));
     }
 
